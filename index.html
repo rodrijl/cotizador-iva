@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cálculo de IVA</title>
+    <link rel="stylesheet" href="estilos.css">
+    <script src="./calculo.js"></script>
+</head>
+<body>
+    <div class="titulo">
+        <p>
+        Ingrese Monto y luego haga click en Calcular IVA
+        </p>
+      </div>
+      <div class="container">
+        <div>
+           
+           
+             <div>
+               <div>
+                 <input type="text" id="monto" placeholder="Monto">
+                 <button onclick="apretarBoton()">Calcular IVA</button>
+               
+                </div>
+              
+            
+
+             </div>
+             <div >
+               <div>
+                 <input type="text" name="iva" id="IVA" placeholder="IVA" readonly>
+                  
+                </div>
+             </div>
+             <div>
+               <div>
+                 <input type="text" name="total" id="conIVA" placeholder="Total con IVA" readonly>
+               </div>
+             </div>
+             <div>
+                <div>
+                  <input type="text" name="total" id="sinIVA" placeholder="Total sin IVA" readonly>
+                </div>
+              </div>
+              <div>
+                <div>
+                  <input type="text" name="total" id="pais" placeholder="Impuesto Pais" readonly>
+                </div>
+              </div>
+              <div>
+                <div>
+                  <input type="text" name="total" id="ivaPais" placeholder="Total IVA + Pais" readonly>
+                </div>
+              </div>
+           
+        </div>
+      </div>
+    
+</body>
+</html>
